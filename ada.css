@@ -1,0 +1,48 @@
+/*body{
+    background-image: url(imagenes/hero.jpg);
+}*/
+nav{
+    
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+nav h2{
+    color: #ed2860;
+    justify-content: flex-start;
+
+}
+nav ul{
+    list-style: none;
+
+    
+}
+nav ul li{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-right: 10px;
+    justify-content: flex-end;
+    
+}
+
+nav ul li a {
+    display: block;
+    padding: auto;
+    text-decoration: none;
+    justify-content:flex-end;
+    
+}
+.contenedor {
+    
+    display: inline-block;
+    padding: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    background-image: url(imagenes/hero.jpg);
+    background-size: cover;
+}
